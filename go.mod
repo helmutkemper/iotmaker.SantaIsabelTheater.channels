@@ -1,3 +1,3 @@
 module channels/latest
 
-go 1.13.5
+go 1.13
