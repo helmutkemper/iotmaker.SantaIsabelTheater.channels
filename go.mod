@@ -1,3 +1,3 @@
-module github.com/helmutkemper/iotmaker.SantaIsabelTheater.channels/latest
+module github.com/helmutkemper/iotmaker.SantaIsabelTheater.channels
 
 go 1.13
