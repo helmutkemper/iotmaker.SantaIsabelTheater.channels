@@ -1,3 +1,3 @@
-module channels/v1
+module channels/latest
 
 go 1.13.5
