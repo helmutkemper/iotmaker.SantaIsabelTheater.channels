@@ -1,7 +1,6 @@
 package channels
 
-type mouse struct {
-
+type Mouse struct {
 }
 
 //
