@@ -1,4 +1,4 @@
 package latest
 
-type mouse struct {
+type Mouse struct {
 }
