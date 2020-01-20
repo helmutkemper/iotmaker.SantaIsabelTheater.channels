@@ -23,9 +23,9 @@ var BrowserMouseDownToPlatformMouseDownEvent chan Press
 var BrowserMouseUpToPlatformMouseUpEvent chan Release
 
 func init() {
-	BrowserMouseToPlatformMouseCoordinate = make(chan Move)
-	BrowserMouseClickToPlatformMouseClickEvent = make(chan Click)
-	BrowserMouseDoubleClickToPlatformMouseDoubleClickEvent = make(chan DoubleClick)
-	BrowserMouseDownToPlatformMouseDownEvent = make(chan Press)
-	BrowserMouseUpToPlatformMouseUpEvent = make(chan Release)
+	BrowserMouseToPlatformMouseCoordinate = make(chan Move, 1)
+	BrowserMouseClickToPlatformMouseClickEvent = make(chan Click, 1)
+	BrowserMouseDoubleClickToPlatformMouseDoubleClickEvent = make(chan DoubleClick, 1)
+	BrowserMouseDownToPlatformMouseDownEvent = make(chan Press, 1)
+	BrowserMouseUpToPlatformMouseUpEvent = make(chan Release, 1)
 }
