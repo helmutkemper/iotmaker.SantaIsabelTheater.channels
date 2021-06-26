@@ -6,8 +6,8 @@ type Cursor struct {
 }
 
 type Coordinate struct {
-	X float64
-	Y float64
+	X int
+	Y int
 }
 
 type Move Coordinate
